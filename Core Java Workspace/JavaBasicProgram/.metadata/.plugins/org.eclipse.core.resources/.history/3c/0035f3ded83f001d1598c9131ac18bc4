@@ -1,0 +1,9 @@
+package TestngSample;
+
+import org.testng.annotations.Test;
+
+public class GroupExamples {
+  @Test
+  public void f() {
+  }
+}

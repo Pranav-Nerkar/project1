@@ -1,0 +1,9 @@
+package Extentreport;
+
+import org.testng.annotations.Test;
+
+public class ExtentDemo {
+  @Test
+  public void f() {
+  }
+}

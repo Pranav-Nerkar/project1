@@ -1,0 +1,5 @@
+package retryfailedTc;
+import org.testng.IRetryAnalyzer;
+public class RetryLogic implements IRetryAnalyzer{
+
+}

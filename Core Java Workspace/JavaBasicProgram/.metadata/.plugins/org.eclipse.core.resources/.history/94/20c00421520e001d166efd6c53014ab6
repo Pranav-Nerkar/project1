@@ -1,0 +1,36 @@
+package Arrays;
+
+public class Frequency_Element {
+
+	public static void countfreq(int arr[],int n) {
+		boolean visited[] = new boolean[n];
+	//	.fill(visited, false);
+
+		// Traverse through array elements and
+		// count frequencies
+		for (int i = 0; i < n; i++) {
+
+		// Skip this element if already processed
+		if (visited[i] == true)
+		continue;
+
+		// Count frequency
+		int count = 1;
+		for (int j = i + 1; j < n; j++) {
+		if (arr[i] == arr[j]) {
+		visited[j] = true;
+		count++;
+		}
+		}
+		System.out.println(arr[i] + " occurs " + count +" times ");
+		}
+		}
+
+		// Driver code
+		public static void main(String []args)
+		{
+		int arr[] = new int[]{10, 30, 10, 20, 10, 20, 30, 10};
+		int n = arr.length;
+	//	Freq(arr, n);
+		}
+		}

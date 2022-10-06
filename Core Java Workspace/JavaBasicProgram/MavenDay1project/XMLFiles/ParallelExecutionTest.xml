@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel test suite" parallel="methods" thread-count="2">
+	<test name="Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="testngsamples.ParallelExecutionTest" />
+		</classes>
+	</test>
+	<test name="Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="testngsamples.ParallelExecutionTest" />
+		</classes>
+	</test>
+</suite>

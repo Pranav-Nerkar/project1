@@ -1,0 +1,9 @@
+package for_loop;
+
+public class Numbers {
+	public static void main(String[] args) {
+		int i;
+		for(i=0;i<5;i++) {
+			System.out.println("Numbers from 1 to 5"+i);
+
+}

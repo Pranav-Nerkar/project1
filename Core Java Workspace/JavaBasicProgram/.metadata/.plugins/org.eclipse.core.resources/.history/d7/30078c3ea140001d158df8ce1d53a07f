@@ -1,0 +1,9 @@
+package testngexamples;
+
+import org.testng.annotations.Test;
+
+public class SetTestCaseOrder_Priority {
+  @Test
+  public void f() {
+  }
+}

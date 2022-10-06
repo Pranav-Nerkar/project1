@@ -1,0 +1,6 @@
+package for_loop;
+
+public class TextFiveTimes {
+	public static void main(String[] args) {
+
+}
